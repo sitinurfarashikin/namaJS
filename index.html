@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function papar() {
+            let Firstname = document.getElementById('Firstname').value;
+            let Secname=document.getElementById('Secname').value;
+            document.getElementById('hasil').innerHTML = '<b>Cik</b> ' + Firstname + Secname;
+        }
+
+        function picit() {
+            alert("Hello");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>DDT4D</h1>
+    <h1>SITI NUR FARASHIKIN BT ZULKIFLI</h1>
+
+    <h1 onclick="picit()">Picit ler</h1>
+
+
+    <input type="text" id="Firstname">
+    <input type="text" id="Secname">
+    <button type="button" onclick="papar();">Papar</button>
+    <span id="hasil"></span>
+
+</body>
+
+</html>
